@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 4</title>
+    <style>
+      .blog {
+        display: flex;
+        width: 100%;
+      }
+      .blog img {
+        width: 30%;
+      }
+      .blog .blog-content {
+        width: 70%;
+      }
+      @media screen and (max-width: 576px) {
+        .blog {
+          flex-direction: column;
+        }
+        .blog img,
+        .blog .blog-content {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="blog">
+      <img src="./asstes/img/girlOne.jpg" alt="" />
+      <div class="blog-content">
+        <h3>Post Title</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad nemo
+          soluta illo fugit enim veniam molestias, nisi totam rem eveniet! Modi,
+          aspernatur. Libero delectus vero provident suscipit nemo ab minus!
+        </p>
+        <button>Read More</button>
+      </div>
+    </div>
+    <div class="blog">
+      <img src="./asstes/img/girlTwo.jpg" alt="" />
+      <div class="blog-content">
+        <h3>Post Title</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad nemo
+          soluta illo fugit enim veniam molestias, nisi totam rem eveniet! Modi,
+          aspernatur. Libero delectus vero provident suscipit nemo ab minus!
+        </p>
+        <button>Read More</button>
+      </div>
+    </div>
+  </body>
+</html>
